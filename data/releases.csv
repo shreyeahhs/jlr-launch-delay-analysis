@@ -1,0 +1,10 @@
+brand,model,segment,platform,region,announce_date,planned_launch_date,actual_launch_date,notes,source
+JLR,Range Rover Electric,Premium_EV_SUV,MLA-Flex,UK/EU,2024-05-01,2025-11-01,2026-06-01,"Delivery shifted to 2026; confirmed by Guardian, Autocar, Reuters",https://www.autocar.co.uk/car-news/new-cars/range-rover-ev-pushed-2026-%E2%80%93-delay-may-affect-jaguar-relaunch
+BMW,iX,Premium_EV_SUV,CLAR,UK/EU,2020-11-11,2021-11-01,2021-11-01,"Launched on schedule; on sale since 2021",https://www.bmw.co.uk/en/all-models/bmw-i/ix/bmw-ix.html
+Mercedes,EQS SUV,Premium_EV_SUV,MEA,UK,2021-04-15,2022-06-01,2022-06-01,"On sale in UK since 2022",https://mercedes-benz-media.co.uk/releases/1501
+Audi,Q8 e-tron,Premium_EV_SUV,MEB,UK,2022-11-09,2023-04-01,2023-04-01,"First UK deliveries in April 2023",https://press.audi.co.uk/releases/834
+Porsche,Macan Electric,Premium_EV_SUV,PPE,UK,2024-01-25,2024-04-01,2024-04-01,"UK orders opened 2024; deliveries mid-year",https://press.porsche.co.uk/prod/presse_pag/PressResources.nsf/Content?ReadForm=&languageversionid=1562531&mode=edit
+Volvo,EX90,Premium_EV_SUV,SPA2,UK,2022-11-09,2024-12-01,2025-06-01,"UK orders live; first units expected mid-2025",https://www.volvocars.com/uk/l/offers/ex90/
+Polestar,3,Premium_EV_SUV,SEA,UK,2022-10-12,2024-12-01,2025-03-01,"UK deliveries early 2025",https://www.polestar.com/uk/polestar-3/
+Tesla,Model X,Premium_EV_SUV,Custom,UK/EU,2015-09-29,2016-09-01,2016-09-01,"Long-running production model; dynamic config pricing",https://www.tesla.com/en_gb/modelx
+Lotus,Eletre,Premium_EV_SUV,Electric,UK/EU,2022-10-25,2023-07-01,2023-07-01,"Deliveries started 2023; UK price confirmed",https://www.autocar.co.uk/car-news/new-cars/lotus-eletre-launch-905bhp-%C2%A3120000-range-topper

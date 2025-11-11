@@ -1,0 +1,9 @@
+year,region,segment,total_units,source,notes
+2023,EU,All_BEV,1250000,https://www.acea.auto/statistics/tag/electric-vehicles/,"Derived from 12% BEV share on 10.4M cars"
+2024,EU,All_BEV,1440000,https://www.acea.auto/files/Press_release_car_registrations_December_2024.pdf,"BEV share 13.6% (EU total 10.6M)"
+2025,EU,All_BEV,1700000,https://www.acea.auto/pc-registrations/new-car-registrations-0-9-in-september-2025-year-to-date-battery-electric-16-1-market-share/,"16.1% BEV share projected full year"
+2024,UK,All_BEV,314000,https://www.smmt.co.uk/vehicle-data/electric-vehicle-registrations/,"SMMT annual total"
+2025,UK,All_BEV,500000,https://www.electrive.com/2025/11/05/uk-bev-registrations-surpass-2024-total/,"Electrive: 386k YTD Oct; extrapolated to ~500k"
+2024,EU+UK,Premium_EV_SUV,144000,Derived,"≈10% of total BEV market"
+2025,EU+UK,Premium_EV_SUV,187000,Derived,"≈11% of total BEV market"
+2026,EU+UK,Premium_EV_SUV,240000,Derived,"≈12% of total BEV market"

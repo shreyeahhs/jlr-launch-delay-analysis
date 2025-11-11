@@ -1,0 +1,10 @@
+brand,model,price_type,value_gbp,pricing_source,notes
+Mercedes,EQS SUV,OTR_from,129170,https://mercedes-benz-media.co.uk/releases/1501,"Confirmed OTR price on UK media site"
+Audi,Q8 e-tron,OTR_from,67800,https://press.audi.co.uk/releases/834,"UK price range £67,800–£117,000"
+Porsche,Macan Electric,OTR_from,69800,https://press.porsche.co.uk/prod/presse_pag/PressResources.nsf/Content?ReadForm=&languageversionid=1562531&mode=edit,"Base Macan 4 £69,800; Turbo higher"
+Volvo,EX90,OTR_from,96360,https://www.volvocars.com/uk/l/offers/ex90/,"UK offer page lists OTR £96,360"
+Polestar,3,RRP_range_min,69910,https://www.carwow.co.uk/polestar/3,"Carwow UK: £69,910–£91,990 range"
+BMW,iX,price_from,74400,https://heycar.com/uk/news/updated-2025-bmw-ix,"Base model £74,400 (xDrive45)"
+Lotus,Eletre,RRP_from,89500,https://www.autocar.co.uk/car-news/new-cars/lotus-eletre-launch-905bhp-%C2%A3120000-range-topper,"Autocar: £89,500–£120,000 range"
+Tesla,Model X,config_dynamic,,https://www.tesla.com/en_gb/modelx,"Variable by configuration"
+JLR,Range Rover Electric,estimated,120000,https://www.autocar.co.uk/car-news/new-cars/range-rover-ev-pushed-2026-%E2%80%93-delay-may-affect-jaguar-relaunch,"Expected £110k–£130k range"

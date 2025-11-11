@@ -1,0 +1,71 @@
+# -------------------------
+# Project scope
+# -------------------------
+region: "EU+UK"
+currency: "GBP"
+
+# -------------------------
+# Launch timing (Range Rover Electric)
+# -------------------------
+delay_months: 8              # months shift of actual launch vs planned
+
+# -------------------------
+# Market-share scenarios for RRE (Premium EV SUV segment)
+# Definition: share one year after launch (steady-state target),
+# ramped up linearly over ramp_months_to_steady.
+# -------------------------
+share_targets:
+  base: 0.08        # conservative (late entrant, capacity constraints)
+  expected: 0.10    # likely case (brand loyalty + waitlist)
+  optimistic: 0.12  # upside case (strong reception, faster ramp)
+
+ramp_months_to_steady: 12    # months to reach the target share
+
+# -------------------------
+# Delay dynamics
+# -------------------------
+competitor_steal_rate: 0.65  # fraction of RRE's would-be demand captured by rivals during delay
+recovery_factor: 0.60        # fraction of lost demand that returns to RRE within 12 months post-launch
+recovery_months: 12          # months over which recovery is spread (linear)
+
+# -------------------------
+# Segment scaling (use with ACEA/SMMT BEV totals)
+# Approximate premium EV-SUV share of all BEVs
+# -------------------------
+premium_suv_share:
+  "2024": 0.10
+  "2025": 0.11
+  "2026": 0.12
+
+# -------------------------
+# Price / elasticity
+# -------------------------
+avg_asp_rre: 120000          # GBP, central estimate (documented in README)
+asp_noise_pct: 0.05          # ±5% uniform noise when simulating ASP
+price_elasticity: -0.8       # optional: demand sensitivity to price changes
+
+# -------------------------
+# Synthetic UK/EU BEV context (for monthly generator)
+# -------------------------
+uk_bev_total_2025: 500000    # anchor for UK; EU anchors come from segment_size.csv
+monthly_growth_pattern: "logistic"   # or "seasonal_linear"
+
+# -------------------------
+# Competitor allocation weights (for lost-demand split during delay)
+# Should sum to 1.0
+# -------------------------
+competitor_weights:
+  Tesla: 0.27
+  BMW: 0.12
+  Mercedes: 0.10
+  Audi: 0.08
+  Polestar: 0.05
+  Volvo: 0.04
+  Porsche: 0.03
+  Lotus: 0.01
+  Other: 0.30   # optional buffer to avoid over-fitting named brands
+
+# -------------------------
+# Randomness control
+# -------------------------
+random_seed: 42
